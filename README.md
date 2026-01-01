@@ -21,7 +21,12 @@ FreshCart is a responsive grocery e-commerce website designed using **HTML, CSS,
 ---
 
 ## 📸 Screenshots
-(Add screenshots here)
+![Home Page](home.png)
+![Products](shop.png)
+![stores](stores.png)
+![Blog](blog.png)
+![wish-list](wish-List.png)
+![shop-cart](shop-cart.png)
 
 ---
 
