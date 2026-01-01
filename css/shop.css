@@ -1,0 +1,182 @@
+:root{
+    --rating-color:#ffc107;
+    --text-light:#889397;
+    --bg-color:#f0f3f2;
+    --text-dark-gray:#5c6c75;
+    --text-dark:#21313c;
+    --theme-color:#0aad0a;
+    --theme-dark-color:#088a08;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+p{
+    color: var(--text-dark-gray);
+}
+.w-5{
+    width: 20%;
+}
+body{
+        font-family: 'Inter 18pt';
+}
+.py{
+    padding: 100px 0;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+/* topbar */
+.topbar, .topbar select{
+    background-color: var(--bg-color);
+}
+.topbar .topbar-lang select:hover{
+    color: var(--theme-color) !important;
+}
+/* header */
+.header .header-search-bar a, .shop-cart p{
+    color: var(--text-dark-gray) !important;
+    font-size: 14px;
+}
+.header .header-search-bar input{
+    color: var(--text-dark-gray);
+    width: 453px;
+    border: none;
+    font-size: 14px;
+}
+.header .header-search-bar form:hover, .header .header-search-bar a:hover{
+    box-shadow: 0 3px 8px var(--theme-color);
+    border: 1px solid var(--theme-color) !important;
+    transition: all 0.2s ease-in-out;
+}
+.header .header-search-bar form a:hover{
+    box-shadow: 0px 3px 10px var(--theme-color) !important;
+    border: none !important;
+}
+.header ul li span{
+    font-size: 10px;
+    background-color: var(--theme-color);
+    padding: 0 6px;
+}
+.header ul li:first-child span{
+    top: -2px;
+    right: 8px;
+}
+.header ul li:last-child span{
+    top: -2px;
+    right: -6px;
+}
+header .header-primary .header-primary-btn{
+    padding: 9px 24px;
+    background-color: var(--theme-color);
+    border: transparent !important;
+}
+header .header-primary .header-primary-btn a i{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.686);
+}
+header .header-primary nav ul li a:hover{
+    color: var(--theme-color) !important;
+}
+header hr{
+    color: var(--theme-color);
+}
+/* shop cart */
+.shop-cart .card-body{
+    background-color: var(--bg-color) !important;
+}
+/* products */
+.shop-cart .product-type:hover{
+    border: 1px solid var(--theme-color) !important;
+    transition-duration: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shop-cart .product-type:hover ul{
+    opacity: 1 !important;
+}
+
+.shop-cart .product-type .red-title , .shop-cart .product-type .green-title{
+    font-size: 10px;
+}
+.shop-cart .product-type .product-content span i, .product-type .product-content p, .shop-cart .poproduct-type .product-content span p{
+    font-size: 12px;
+}
+.shop-cart .product-type .product-content h5, .shop-cart .product-type .product-content h2{
+    font-size: 14px;
+}
+.shop-cart .product-type .product-content small p{
+    font-size: 13px;
+    color: var(--text-light);
+}
+.shop-cart .product-content .product-button a{
+    background-color: var(--theme-color);
+    font-size: 13px;
+}
+.shop-cart .product-content h2:hover{
+    color: var(--theme-dark-color);
+}
+.shop-cart ul{
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.shop-cart ul li a:hover i{
+    color: white !important;
+    background-color: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+    transition-duration: 0.5s;
+}
+/* pagination */
+.pagination a{
+    color: var(--text-light);
+}
+.pagination li:nth-child(2) a{
+    background-color: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+}
+.pagination li a:hover{
+    background-color: var(--theme-color) !important;
+    color: white !important;
+    border-color: var(--theme-color) !important;
+}
+.pagination{
+    margin-bottom: 80px;
+}
+
+/* footer */
+footer{
+    background-color: var(--bg-color);
+}
+footer h6{
+    font-size: 15px;
+}
+footer a{
+    color: var(--text-dark-gray);
+    font-size: 14px;
+}
+footer a:hover{
+    color: var(--theme-color);
+    transition-duration: 0.5s;
+}
+/* copyright */
+.copyright p{
+    font-size: 13px;
+}
+.copyright p span a{
+    color: var(--theme-color);
+    font-size: 13px;
+    font-weight: 500;
+}
+.copyright ul li a:hover, .copyright ul li a i:hover{
+    color: var(--theme-color) !important;
+    border-color: var(--theme-color) !important;
+}
